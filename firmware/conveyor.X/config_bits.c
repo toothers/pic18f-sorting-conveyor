@@ -4,7 +4,7 @@
 // 'C' source line config statements
 
 // CONFIG1H
-#pragma config FOSC = HSHP      // Oscillator Selection bits (HS oscillator (high power > 16 MHz))
+#pragma config FOSC = HSMP      // Oscillator Selection bits (HS oscillator (high power > 16 MHz))
 #pragma config PLLCFG = OFF     // 4X PLL Enable (Oscillator used directly)
 #pragma config PRICLKEN = ON    // Primary clock enable bit (Primary clock is always enabled)
 #pragma config FCMEN = OFF      // Fail-Safe Clock Monitor Enable bit (Fail-Safe Clock Monitor disabled)
